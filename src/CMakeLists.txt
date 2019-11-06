@@ -1,14 +1,14 @@
 # Add include directory
-project(vec_str_libs)
+project(project_name_libs)
 
 include_directories(${PROJECT_INCLUDE_DIR})
 
-add_library(vec_str STATIC vec_str.cpp)
-# add_library(vec_str SHARED vec_str.cpp)
+add_library(project_name STATIC project_name.cpp)
+# add_library(project_name SHARED project_name.cpp)
 
-# set_target_properties(vec_str PROPERTIES PUBLIC_HEADER ${PROJECT_INCLUDE_DIR}/vec_str.h)
+# set_target_properties(project_name PROPERTIES PUBLIC_HEADER ${PROJECT_INCLUDE_DIR}/project_name.h)
 
-install(TARGETS vec_str
+install(TARGETS project_name
 	# LIBRARY DESTINATION ${LIB_INSTALL_DIR}
 	DESTINATION ${LIB_INSTALL_DIR}
 	# PUBLIC_HEADER DESTINATION ${HEADER_INSTALL_DIR}

@@ -9,7 +9,7 @@
  *  elements are stored in [begin, end)
  *  available space is [begin, limit)
  */
-struct vec_str
+struct project_name
 {
 private:
         std::string * begin;
@@ -18,9 +18,9 @@ private:
         std::string * limit;
 
 public:
-        vec_str() : begin(nullptr), end(nullptr), limit(nullptr) {}
+        project_name() : begin(nullptr), end(nullptr), limit(nullptr) {}
 
-        vec_str(size_t s);
+        project_name(size_t s);
 
         uint64_t size() const {
                 return end - begin;

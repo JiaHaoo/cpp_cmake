@@ -1,1 +1,1 @@
-project(vec_str_docs)
+project(project_name_docs)

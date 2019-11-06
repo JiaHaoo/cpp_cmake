@@ -33,7 +33,7 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
 endif()
 
 
-project(vec_str_project)
+project(project_name_project)
 include(CTest)
 # include(include(GNUInstallDirs)
 

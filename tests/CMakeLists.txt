@@ -1,11 +1,11 @@
 # Add include directory
-project(vec_str_tests)
+project(project_name_tests)
 
 include_directories(${PROJECT_INCLUDE_DIR})
 
-add_executable(unittest vec_str_unit.cpp)
+add_executable(unittest project_name_unit.cpp)
 
-target_link_libraries(unittest gtest_main vec_str)
+target_link_libraries(unittest gtest_main project_name)
 
 add_test(NAME unit_test COMMAND unittest)
 

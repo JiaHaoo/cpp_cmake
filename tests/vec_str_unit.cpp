@@ -2,7 +2,7 @@
 
 #include "gtest/gtest.h"
 
-#include "vec_str.h"
+#include "project_name.h"
 
 
 TEST (BasicTest, TestCaseName) {
